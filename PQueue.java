@@ -1,4 +1,4 @@
-public interface PQueue<T extends Comparable<T>> {
-  public void insert(T o); // inserts o into the queue
-  public T remove();       // removes object with highest priority (by natural order)
+public interface PQueue<P extends Comparable<P>, T extends Comparable<T>> {
+  public void insert(P priority, T value); // inserts value into the queue
+  public T remove();                       // removes value with highest priority (by natural order)
 }
