@@ -2,12 +2,12 @@ public class PQueueTest {
 
   public static void main(String[] args) {
     String[] words = new String[] {
-      "kto Cię stracił.",
+      "kto Cie stracil.",
       "Ojczyzno moja,",
       "Litwo,",
-      "ty jesteś jak zdrowie",
+      "ty jestes jak zdrowie",
       "ten tylko się dowie",
-      "ile cię trzeba cenić,"
+      "ile cie trzeba cenic,"
     };
     Integer[] priorities = new Integer[] {
       0,
